@@ -1,6 +1,6 @@
 FROM debian:stretch
 
-ARG MAKEMKV_VERSION=1.14.5
+ARG MAKEMKV_VERSION=1.16.5
 ARG PREFIX=/usr/local
 
 # Install MakeMKV dependencies.
