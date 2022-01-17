@@ -6,25 +6,20 @@ ARG PREFIX=/usr/local
 # Install MakeMKV dependencies.
 RUN set -ex; \
     buildDeps=' \
+		build-essential \
 		ca-certificates \
 		g++ \
 		gcc-6 \
 		libavcodec-dev \
-		libexpat-dev \
+		libc6-dev \
+		libexpat1-dev \
+		libgl1-mesa-dev \
 		libqt4-dev \
 		libssl-dev \
 		make \
 		pkg-config \
-		wget \
-		zlib1g-dev \
-		build-essential \
-		pkg-config \
-		libc6-dev \
-		libssl-dev \
-		libexpat1-dev \
-		libavcodec-dev \
-		libgl1-mesa-dev \
 		qtbase5-dev \
+		wget \
 		zlib1g-dev \
 	'; \
    	apt-get update; \
