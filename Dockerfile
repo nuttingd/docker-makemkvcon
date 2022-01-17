@@ -17,6 +17,15 @@ RUN set -ex; \
 		pkg-config \
 		wget \
 		zlib1g-dev \
+		build-essential \
+		pkg-config \
+		libc6-dev \
+		libssl-dev \
+		libexpat1-dev \
+		libavcodec-dev \
+		libgl1-mesa-dev \
+		qtbase5-dev \
+		zlib1g-dev \
 	'; \
    	apt-get update; \
 	apt-get install -y --no-install-recommends $buildDeps; \
